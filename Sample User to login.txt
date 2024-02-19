@@ -1,0 +1,18 @@
+Sample User to login
+
+GrapghQL Query
+
+mutation login($username: String!, $password: String!) {
+  login(username: $username, password: $password) {
+    _id
+    username
+    email
+  }
+}
+
+GrapghQL variables
+
+{
+  "username": "Daniel",
+  "password": "Akindun123#"
+}
